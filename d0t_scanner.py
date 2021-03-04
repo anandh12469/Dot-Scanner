@@ -24,8 +24,6 @@ def logo():
     ascii_banner = pyfiglet.figlet_format("DOT SCANNER")
     print(ascii_banner)
     print("-" * 50)
-    cprint(Fore.YELLOW + "Dotworld Techologies" + Style.RESET_ALL, attrs=['bold'])
-    cprint(Fore.BLUE + "https://dotworld.in"+ Style.RESET_ALL, attrs=['bold'])
     cprint(Fore.RED + 'Created By : Anandharaj', attrs=['bold'])
     cprint(Fore.BLACK + 'Twitter    : https://twitter.com/anand_cyb3r', attrs=['bold'])
     print("-" * 50)
